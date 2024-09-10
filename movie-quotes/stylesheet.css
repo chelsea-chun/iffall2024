@@ -1,0 +1,22 @@
+p {
+    margin: 10px 40px;
+    color: aliceblue;
+    text-align: center;
+  }
+
+h1 {
+    margin: 10px 25px;
+    color: aliceblue;
+    text-align: center;
+}
+.container {
+  background-color: rgba(48, 56, 70, 0.784);
+  width: 800px;
+  padding: 1%;
+  border: 10px solid rgb(18, 18, 25);
+  margin: 50px auto;
+}
+
+body {
+  background-image: url("https://cdn.britannica.com/22/255822-050-D23DC699/publicity-still-1984-film-ghostbusters-actors-dan-aykroyd-bill-murray-harold-ramis-ernie-hudson.jpg");
+}
