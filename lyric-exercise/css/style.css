@@ -1,0 +1,28 @@
+p {
+    font-family:Georgia;
+    color: blanchedalmond;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(183, 110, 70, 0.5);
+    width: 500px;
+    padding: 1%;
+    margin: 50px auto;
+}
+
+body {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e0dc7257707935.59e030f55ea98.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+h1 {
+    margin: 30px 25px;
+    color: blanchedalmond;
+    text-align: center;
+}
