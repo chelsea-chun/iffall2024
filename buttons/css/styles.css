@@ -1,0 +1,389 @@
+a#btn_apple{
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: fit-content;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    color: black;
+    transition: transform 0.4s, color 0.4s, filter 0.5s;
+}
+
+a#btn_apple:hover{
+    transform: translate(-50%, -50%) scale(1.2);
+    color: slategrey;
+    transition: transform 0.5s, color 0.5s;
+}
+
+a#btn_apple:hover i{
+    filter: drop-shadow(5px 5px 5px rgb(206, 206, 206));
+    transition: filter 0.5s;
+}
+
+
+
+a#btn_samsung{
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: fit-content;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    font-family: 'Samsung Logo font', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #1428A0;
+    background-color: transparent;
+    text-decoration: none;
+    transition: transform 0.5s, color 0.5s;
+}
+
+a#btn_samsung:hover{
+    color: transparent;
+    background-color: gray;
+    background-clip: text;
+    text-shadow: 0 5px 5px white;
+    transform: translate(-50%, -50%) scale(1.2);
+    transition: transform 0.5, text-shadow 0.5s, color 0.5s, background-color 0.5s;
+}
+
+
+
+a#btn_harley{
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: fit-content;
+    transform: translate(-50%, -50%) scale(2);
+    text-decoration: none;
+    font-family: "Block Gothic RR Bold Extra Condensed";
+    text-transform: uppercase;
+    color: black;
+    transition: transform 0.4s;
+}
+
+a#btn_harley:hover{
+    transform: translate(-50%, -50%) scale(2.4);
+    border-bottom-width: 100%;
+    transition: transform 0.5s;
+}
+
+a#btn_harley span.harley{
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    transition: border-bottom-color 0.5s;
+}
+
+a#btn_harley:hover span.harley{
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 100%;
+    transition: border-bottom-color 0.5s;
+}
+
+a#btn_harley i {
+    transform-origin: left bottom;
+    transform: rotate(0deg);
+    transition: transform 0.5s;
+}
+
+a#btn_harley:hover i{
+    transform: rotate(-15deg);
+    animation-name: wheelie;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: transform 0.5s;
+}
+
+@keyframes wheelie {
+    from {transform: rotate(-15deg) translate(0%);}
+    33% {translate: 7%;}
+    66% {translate: 3%;}
+    to {transform: rotate(-25deg) translate(10%);}
+}
+
+
+
+a#btn_lyft{
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: fit-content;
+    transform: translate(-50%, -50%);
+    color: #FF00BF;
+    transition: transform 0.5s padding 0.5s;
+}
+
+a#btn_lyft i {
+    background-color: transparent;
+    border-radius: 40px;
+    padding: 0px;
+    transition: background-color 0.3s, border-radius 0.4s, padding 0.4s;
+}
+
+a#btn_lyft i:hover{
+    transform: scale(1.2);
+    background-color: #FF00BF;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    transition: transform 0.5s background-color 0.5s, border-radius 0.5s, padding 0.5s;
+}
+
+
+a#btn_CN{
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: fit-content;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-family: "Lexend Deca", serif;
+    font-weight: 900;
+    font-size: 5em;
+    font-style: normal;
+    text-transform: uppercase;
+    transition: transform 0.5s;
+}
+
+a#btn_CN:hover{
+    transform: translate(-50%, -50%) scale(1.2);
+    transition: transform 0.5s;
+}
+
+a#btn_CN ul {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 0;
+}
+
+a#btn_CN li {
+    display: block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    line-height: .85;
+}
+
+a#btn_CN li#CN_1 {
+    background-color: black;
+    color: white;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+a#btn_CN:hover li#CN_1{
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+a#btn_CN li#CN_2 {
+    background-color: white;
+    color: black;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+a#btn_CN:hover li#CN_2 {
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+
+
+a#btn_insta {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: fit-content;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    transition: transform 0.5s;
+}
+
+a#btn_insta i{
+    border-radius: 25px;
+    padding: 5px 10px;
+    color: white;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    transition: color 0.4s;
+}
+
+a#btn_insta:hover {
+    transform: translate(-50%, -50%) scale(1.2);
+    transition: transform 0.5s;
+}
+a#btn_insta:hover i{
+    color: black;
+    background: none;
+    transition: color 0.5s;
+}
+
+
+
+a#btn_fb {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: fit-content;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    border-radius: 40px;
+    padding: 0;
+    color: #1877F2;
+    background-color: transparent;
+    transition: transform 0.4s, color 0.4s, border-radius 0.4s, padding 0.4s, background-color 0.5s;
+
+}
+
+a#btn_fb:hover {
+    transform: translate(-50%, -50%) scale(1.2);
+    transform-origin: center;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #1877F2;
+    transition: transform 0.5s, color 0.5s, border-radius 0.5s, padding 0.5s, background-color 0.5s;
+}
+
+
+
+a#btn_tesla{
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: fit-content;
+    transform: translate(-50%, -50%) scale(2);
+    text-decoration: none;
+    font-family: "TESLA", sans-serif;
+    text-transform: uppercase;
+    color: black;
+    transition: transform 0.4s, color 0.4s, text-shadow 0.4s;
+}
+
+a#btn_tesla:hover{
+    transform: translate(-50%, -50%) scale(2.5);
+    color: #E31937;
+    text-shadow: 0 0 5px #E31937;
+    transition: transform 0.5s, color 0.5s, text-shadow 0.5s;
+}
+
+
+
+a#btn_foreflight {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: fit-content;
+    transform: translate(-50%, -50%) scale(2);
+    text-decoration: none;
+    font-family: "gesta", clean, sans-serif;
+    font-weight: 900;
+    line-height: 1.2;
+    transition: transform 0.4s;
+}
+
+a#btn_foreflight span {
+    padding-left: 20px;
+    color: rgb(36, 46, 56);
+    transition: color 0.4s, padding-left 0.4s;
+}
+
+a#btn_foreflight i {
+    position: absolute;
+    top: 8%;
+    color: rgb(36, 46, 56);
+    z-index: -1;
+    transition: transform 0.4s;
+}
+
+a#btn_foreflight:hover {
+    transform: translate(-50%, -50%) scale(2);
+    transition: transform 0.5s;
+}
+
+a#btn_foreflight:hover span {
+    padding-left: 0px;
+    color: white;
+    transition: color 0.5s, padding-left 0.5s;
+}
+
+a#btn_foreflight:hover i {
+    transform: translate(170%)scale(5.5);
+    transition: transform 0.5s;
+}
+
+
+
+a#btn_npr {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: fit-content;
+    transform: translate(-50%, -50%) scale(1);
+    text-decoration: none;
+    font-family: "Trebuchet MS", Tahoma, sans-serif; 
+    font-weight: 900;
+    font-size: 4em;
+    text-transform: lowercase;
+    box-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+a#btn_npr ul {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 0;
+}
+
+a#btn_npr li {
+    display: block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    line-height: .85;
+    transition: width 0.4s;
+}
+
+a#btn_npr li#npr_1 {
+    background-color: #D62021;
+    color: white;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+a#btn_npr li#npr_2 {
+    background-color: #000000;
+    color: white;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+a#btn_npr li#npr_3 {
+    background-color: #237BBD;
+    color: white;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+a#btn_npr:hover li {
+    transition: width 0.5s ;
+}
+
+a#btn_npr:hover {
+    transform: translate(-48%, -48%) scale(1);
+    box-shadow: none;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
